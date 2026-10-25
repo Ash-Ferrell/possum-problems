@@ -1,3 +1,5 @@
+
+    /*! Root Variables*/
 :root {
     --primary-font: 'Comic Neue', sans-serif;
     --secondary-font: 'Mystery Quest', cursive;
@@ -10,11 +12,9 @@
     --header-color:#987590;
     --text-color-dark: #111111;
     --text-color-light: #FFFFFF;
-
-
-
-
 }
+
+    /*! Utility Classes */
 
 .background-color-header{
     background-color: var(--header-color);
@@ -37,19 +37,54 @@
 }
 
 
-
+/*! Universal Typography */
 body {
     font-family: var(--primary-font);
     background-color: var(--background-color);
 }
 
+
+/* test Variables */
+div { 
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
 h1 {
     font-family: var(--secondary-font);
 }
 
+
+
+/*! Navbar Styles */
 .custom-button {
     background-color: var(--highlight-color);
     border: 2.5px solid var(--highlight-color);
     color: var(--text-color-light);
+}
+
+/*! Index Styles */
+
+/*! Hero Image Styles */
+#hero-image {
+    background: url(../images/hero-image.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+#hero-textbox {
+    background-color: var(--highlight-color);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 5px solid #FFFFFF;
+    text-align: center;
+    margin:auto;
+
 }
 
