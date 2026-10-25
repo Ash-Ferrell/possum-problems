@@ -2,7 +2,7 @@
     --primary-color: #A6c9ED;
     --secondary-color: #EDD3A6;
     --highlight-color: #EDA6DC;
-    --background-color: #4b4b4b;
+    --background-color: #987590;
     --header-color:#987590;
     --text-color: #111111;
 }
@@ -11,3 +11,4 @@
 body {
     background-color: var(--background-color);
 }
+
