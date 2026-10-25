@@ -2,13 +2,40 @@
     --primary-font: 'Comic Neue', sans-serif;
     --secondary-font: 'Mystery Quest', cursive;
     
+    /* Color Palette */
     --primary-color: #A6c9ED;
     --secondary-color: #EDD3A6;
     --highlight-color: #EDA6DC;
     --background-color: #987590;
     --header-color:#987590;
-    --text-color: #111111;
+    --text-color-dark: #111111;
+    --text-color-light: #FFFFFF;
+
+
+
+
 }
+
+.background-color-header{
+    background-color: var(--header-color);
+}
+.background-color-primary {
+    background-color: var(--primary-color);
+}
+.background-color-secondary {
+    background-color: var(--secondary-color);
+}   
+
+.background-color-background {
+    background-color: var(--background-color);
+}
+.background-color-highlight {
+    background-color: var(--highlight-color);
+}   
+.secondary-font {
+    font-family: var(--secondary-font);
+}
+
 
 
 body {
@@ -20,11 +47,9 @@ h1 {
     font-family: var(--secondary-font);
 }
 
-
-.secondary-font {
-    font-family: var(--secondary-font);
+.custom-button {
+    background-color: var(--highlight-color);
+    border: 2.5px solid var(--highlight-color);
+    color: var(--text-color-light);
 }
 
-.highlight-color {
-    color: var(--highlight-color);
-}
