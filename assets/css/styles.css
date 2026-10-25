@@ -43,11 +43,11 @@ body {
     background-color: var(--background-color);
 }
 
-
-/* test Variables */
+/* test Variables 
 div { 
     border: 1px solid black;
 }
+    */
 
 
 
@@ -76,6 +76,8 @@ h1 {
     background: url(../images/hero-image.png) no-repeat center center;
     background-size: cover;
     width: 100%;
+    min-height: 700px;
+
 }
 
 #hero-textbox {
@@ -85,6 +87,8 @@ h1 {
     border: 5px solid #FFFFFF;
     text-align: center;
     margin:auto;
+    width: 100%;
+    max-width: 600px;
 
 }
 
