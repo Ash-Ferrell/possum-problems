@@ -1,4 +1,7 @@
 :root {
+    --primary-font: 'Comic Neue', sans-serif;
+    --secondary-font: 'Mystery Quest', cursive;
+    
     --primary-color: #A6c9ED;
     --secondary-color: #EDD3A6;
     --highlight-color: #EDA6DC;
@@ -9,6 +12,19 @@
 
 
 body {
+    font-family: var(--primary-font);
     background-color: var(--background-color);
 }
 
+h1 {
+    font-family: var(--secondary-font);
+}
+
+
+.secondary-font {
+    font-family: var(--secondary-font);
+}
+
+.highlight-color {
+    color: var(--highlight-color);
+}
