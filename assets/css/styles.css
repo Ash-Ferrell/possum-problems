@@ -70,9 +70,9 @@ h1, h2, h3 {
 
 /*! Navbar Styles */
 .custom-button {
-    background-color: var(--highlight-color);
-    border: 2.5px solid var(--highlight-color);
-    color: var(--text-color-light);
+    background-color: var(--secondary-color);
+    border: 2.5px solid var(--text-color-dark);
+    color: var(--text-color-dark);
 }
 
 .border-bottom-white {
@@ -110,7 +110,7 @@ nav {
 }
 
 #hero-textbox {
-    background-color: var(--highlight-color);
+    background-color: var(--primary-color);
     padding: 2rem;
     border-radius: 0.5rem;
     border: 5px solid #FFFFFF;

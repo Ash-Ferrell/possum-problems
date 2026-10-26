@@ -32,7 +32,7 @@
     
 <!-- Navigation -->
    <!-- Nav Bar base copied from Bootstrap 5.3 -->
-
+<header>
 <nav class="navbar navbar-expand-lg fixed-top" id="navbar" style="background-color:#232323; border-bottom: 2px solid #FFFFFF;" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
@@ -60,11 +60,12 @@
     </div>
   </div>
 </nav>
+</header>
 
 
 
-<!-- Header -->
-<header id="hero-image" class="container-fluid d-flex align-items-center justify-content-center">
+<!-- Title Section -->
+<section id="hero-image" class="container-fluid d-flex align-items-center justify-content-center">
     <div class="row"> <!-- Hero Image Row -->
         <div class="col-12"> <!-- Hero Image -->
                 <div id="hero-textbox" class="col-12"> <!-- Title Textbox -->
@@ -74,15 +75,15 @@
                 </div> <!-- End of Title Textbox -->
         </div> <!-- End of Hero Image Collumn -->
     </div> <!-- End of Hero Image Row -->
-</header>
+</section>
 
 
 
 <!-- Main Content -->
 <main class="container">
     <!-- About Section -->
-    <section id="about-section" class="row">
-        <div class="col-6 card-style"> <!-- about card -->
+    <section id="about-section" class="row justify-content-around">
+        <div class="col-5 card-style"> <!-- about card -->
 
            
                 <h2>About</h2>
@@ -95,22 +96,22 @@
         </div> <!-- End of about card -->
 
         
-            <div id="about-image" class="col-6 card-style">
+            <div id="about-image" class="col-5 card-style">
                            </div> <!-- End of Image Section -->
     </section>
  
 
-<div class="row">
+<div class="row justify-content-around">
     <!-- Services Section -->
-    <section id="services-section" class="col-12 col-md-6 card-style">
+    <section id="services-section" class="col-12 col-md-5 card-style">
         <h2>Services</h2>
         <img id="services-image" src="assets/images/placeholder-image.png" alt="Placeholder Image" class="img-fluid"> <!-- Image for Services Section -->
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac facilisis mauris, et consectetur felis.</p>
-    
+        <button class="btn custom-button ms-lg-3" href="#">View Services</button>
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery-section" class="col-12 col-md-6 card-style">
+    <section id="gallery-section" class="col-12 col-md-5 card-style">
         <h2>Gallery</h2>
         <img id="gallery-image" src="assets/images/placeholder-image.png" alt="Placeholder Image" class="img-fluid "> <!-- Image for Gallery Section -->
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac facilisis mauris, et consectetur felis.</p>
