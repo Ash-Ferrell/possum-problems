@@ -7,6 +7,7 @@
     /* Color Palette */
     --primary-color: #A6c9ED;
     --secondary-color: #EDD3A6;
+    --tertiary-color: #B3EDA6;
     --highlight-color: #EDA6DC;
     --background-color: #987590;
     --header-color:#232323;
@@ -70,7 +71,7 @@ h1, h2, h3 {
 
 /*! Navbar Styles */
 .custom-button {
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     border: 2.5px solid var(--text-color-dark);
     color: var(--text-color-dark);
 }
@@ -95,6 +96,9 @@ h1, h2, h3 {
     color:#EDA6DC
 }
 
+#stream-schedule {
+    margin-top: 1rem;
+}
 
 /*! Index Styles */
 
@@ -138,3 +142,49 @@ h1, h2, h3 {
     background-size: cover;
 
 }
+
+
+/* Services Styles */
+
+#services-main { 
+    margin-top: 64px;
+    padding: 1rem;
+    text-align: center;
+ }
+
+ #service-image-1 {
+    background: url(../images/placeholder-image.png) no-repeat center center;
+    background-size: cover;
+ }
+  #service-image-2 {
+    background: url(../images/placeholder-image.png) no-repeat center center;
+    background-size: cover;
+ }
+  #service-image-3 {
+    background: url(../images/placeholder-image.png) no-repeat center center;
+    background-size: cover;
+ }
+  #service-image-4  {
+    background: url(../images/placeholder-image.png) no-repeat center center;
+    background-size: cover;
+ }
+
+
+/*! Gallery Styles */
+
+#gallery-main {
+    margin-top: 64px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.carousel-title {
+    margin-bottom: 1rem;
+    margin-top: 1.25rem;
+}
+
+.carousel-row {
+    margin-bottom: 2rem;
+}
+
+
