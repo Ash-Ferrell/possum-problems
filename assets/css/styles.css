@@ -41,6 +41,7 @@
 body {
     font-family: var(--primary-font);
     background-color: var(--background-color);
+
 }
 
 /* test Variables 
@@ -56,9 +57,14 @@ div {
 
 
 
-h1 {
+h1, h2, h3 {
     font-family: var(--secondary-font);
 }
+
+.text-start {
+    text-align: start;
+}
+
 
 
 
@@ -69,14 +75,32 @@ h1 {
     color: var(--text-color-light);
 }
 
+.border-bottom-white {
+    border-bottom: 5px solid #FFFFFF;
+}
+
+
 /*! Index Styles */
+
+
+
+.card-style {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 5px solid #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+}
 
 /*! Hero Image Styles */
 #hero-image {
     background: url(../images/hero-image.png) no-repeat center center;
     background-size: cover;
     width: 100%;
-    min-height: 700px;
+    height: 80vh;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-bottom: 5px solid #FFFFFF;
 
 }
 
@@ -88,7 +112,13 @@ h1 {
     text-align: center;
     margin:auto;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
 
 }
 
+#about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    border: 5px solid #FFFFFF;
+}
