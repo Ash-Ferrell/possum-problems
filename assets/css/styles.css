@@ -79,6 +79,10 @@ h1, h2, h3 {
     border-bottom: 5px solid #FFFFFF;
 }
 
+nav {
+    box-shadow: 0 3px 3px rgba(17, 17, 17, 0.5);
+}
+
 
 /*! Index Styles */
 
