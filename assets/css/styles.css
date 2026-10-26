@@ -45,19 +45,6 @@ body {
 
 }
 
-/* test Variables 
-div { 
-    border: 1px solid black;
-}
-    */
-
-
-
-
-
-
-
-
 h1, h2, h3 {
     font-family: var(--secondary-font);
 }
