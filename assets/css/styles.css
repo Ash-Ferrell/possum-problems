@@ -90,6 +90,7 @@ h1, h2, h3 {
     border: 5px solid #FFFFFF;
     text-align: center;
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 /*! Hero Image Styles */
@@ -117,8 +118,7 @@ h1, h2, h3 {
 }
 
 #about-image {
-    width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
-    border: 5px solid #FFFFFF;
+    background: url(../images/placeholder-image.png) no-repeat center center;
+    background-size: cover;
+
 }
