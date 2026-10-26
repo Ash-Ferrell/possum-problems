@@ -79,6 +79,9 @@ h1, h2, h3 {
     border-bottom: 5px solid #FFFFFF;
 }
 
+.border-top-white {
+    border-top: 2px solid #FFFFFF;
+}
 
 
 /*! Footer Styles */
