@@ -9,7 +9,7 @@
     --secondary-color: #EDD3A6;
     --highlight-color: #EDA6DC;
     --background-color: #987590;
-    --header-color:#987590;
+    --header-color:#232323;
     --text-color-dark: #111111;
     --text-color-light: #FFFFFF;
 }
@@ -79,8 +79,13 @@ h1, h2, h3 {
     border-bottom: 5px solid #FFFFFF;
 }
 
-nav {
-    box-shadow: 0 3px 3px rgba(17, 17, 17, 0.5);
+
+
+/*! Footer Styles */
+#footer {
+    background-color: var(--header-color);
+    color: var(--text-color-light);
+    text-align: center;
 }
 
 
