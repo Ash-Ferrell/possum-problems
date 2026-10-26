@@ -91,6 +91,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+#social-networks a {
+    color:#EDA6DC
+}
+
 
 /*! Index Styles */
 
