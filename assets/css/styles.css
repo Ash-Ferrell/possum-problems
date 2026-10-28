@@ -142,18 +142,22 @@ h1, h2, h3 {
  #service-image-1 {
     background: url(../images/alternate-green-kitchen.webp) no-repeat center center;
     background-size: cover;
+    min-height:150px;
  }
   #service-image-2 {
     background: url(../images/services-floorplan.webp) no-repeat center center;
     background-size: cover;
+    min-height:150px
  }
   #service-image-3 {
     background: url(../images/services-consultations.webp) no-repeat center center;
     background-size: cover;
+    min-height:150px;
  }
   #service-image-4  {
     background: url(../images/services-tutoring.webp) no-repeat center center;
     background-size: cover;
+    min-height:150px;
  }
 
 
