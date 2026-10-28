@@ -108,7 +108,7 @@ h1, h2, h3 {
 }
 
 .card-style > h2 { 
-    background-color: var(--secondary-color);
+    background-color: var(--highlight-color);
     border-radius: 0.5rem;
 
 }
