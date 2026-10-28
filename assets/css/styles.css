@@ -99,6 +99,13 @@ h1, h2, h3 {
     padding: 1rem;
     margin-bottom: 1rem;
 }
+.border-y-white {
+    background-color: var(--primary-color);
+    border-top: 5px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
 
 /*! Hero Image Styles */
 #hero-image {
@@ -125,7 +132,7 @@ h1, h2, h3 {
 }
 
 #about-image {
-    background: url(../images/placeholder-image.webp) no-repeat center center;
+    background: url(../images/alternate-green-kitchen.webp) no-repeat center center;
     background-size: cover;
 
 }
