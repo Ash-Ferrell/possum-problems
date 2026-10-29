@@ -51,6 +51,7 @@ h1, h2, h3 {
 
 .text-start {
     text-align: start;
+    margin: 0;
 }
 
 .automargin {
